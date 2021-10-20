@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/registros.css">
+        <script src="../js/registro.js"></script>
+
+    </head>
+
+    <body>
+
+        <h1> Easy Med </h1>
+        <h3> REGISTRO DE DADOS MÉDICOS</h3>
+        <p> Registre aqui suas informações médicas. Caso já tenha registrado, e deseje apenas consultar seus dados, vá para "Carteira".</p>
+
+        <table class="tabela">
+            <tr>
+                <td>Alergia</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: Rinite alérgica" size="20" id="alergia">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Peso</td>
+                <td>
+                    <input type="text" class="field" placeholder="65" size="20" id="peso">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tipo Sanguíneo</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: A+" size="20" id="tipo_sanguineo">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Altura em cm</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: 178" size="20" id="altura">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Remédio de Uso Contínuo</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: Pantoprazol" size="20" id="remedios">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Doenças Existentes</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: Diabete,Hipertensão" size="20" id="doencas">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Contato de Emergência</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.: (41)99999-9999" size="20" id="contato">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Plano de Saúde</td>
+                <td>
+                    <input type="text" class="field" placeholder="Ex.:Unimed" size="20" id="plano_saude">
+                </td>
+            </tr>
+        </table>
+     
+        <br> <br>
+
+        <div class="botoes">
+            <button onclick="gravar()"> Registrar dados </button> <br> <br>
+            <button onclick="carteira()"> Acessar Carteira</button> <br> <br>
+        </div>
+
+
+    </body>
+</html>
